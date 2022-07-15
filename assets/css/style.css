@@ -1,50 +1,47 @@
-{box-sizing: border-box;
-  padding: 0;
+* {
+  box-sizing: border-box;
+  padding: 10px;
   margin: 0;
 }
 
 header {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
+  background-image: "./assets/images/cloud.jpeg";
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
-  header {
+/* header {
     padding: 20px;
     font-family: Cambria, 'Cochin', Georgia, 'Times', 'Times New Roman', serif;
     background-color: #2a607c;
     color: #ffffff;
+} */
+
+body {
+  background-color: #d9dcd6;
 }
 
-  body {
-      background-color: #d9dcd6;
-  }
-
-  header h1 {
-    display: inline-block;
-    font-size: 36px;
-  }
-  
-  header h1 .JOY {
-        color: #2a607c;
-  }
-header h1 .CE {
-      color: #2a607c;
+header h1 {
+  color: gray;
+}
+header h2 .ce {
+  color: #2a607c;
 }
 header nav {
-  padding-top: 15px;
+  padding-top: 10px;
   margin-right: 20px;
   float: right;
-  font-family: Cambria, 'Cochin', Georgia, 'Times', 'Times New Roman', serif;
+  font-family: Cambria, "Cochin", Georgia, "Times", "Times New Roman", serif;
   font-size: 24px;
 }
-header nav ul { 
-    list-style-type: none;
-}  
+header nav ul {
+  list-style-type: none;
+}
 header nav ul li {
   display: inline-block;
   margin-right: 25px;
-  }
+}
 
 .cloud {
   height: 800px;
@@ -53,76 +50,57 @@ header nav ul li {
   background-image: url("assets/images/cloud.jepg");
   background-size: cover;
   background-position: center;
-}  
-  
+}
+
 .float-left {
-    float: left;
-    margin-right: 25px;
-    }
+  float: left;
+  margin-right: 25px;
+}
 .float-right {
-    float: right;
-    margin-left: 25px;
-  }
+  float: right;
+  margin-left: 25px;
+}
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 22px;
 }
 
-  /* Boxes */
-  img {
-    /* Sets display to block */
-    display: block;
-    /*Sets margins to center elements*/
-    margin: 0 auto;
-  }
-  
-  #nav-1  {
-    background-color: #e0115f;
-    text-align: right;
-  }
-  
-  #nav-2 {
-    background-color: #0000ff;
-  }
-  
-  #nav-3 {
-    background-color: #999900;
-  }
-  
-  #nav-4 {
-    background-color: #999900;
-  }
-  
-  /* Box 3 */
-  #image-3 {
-    /* Change display: none to display: block */
-    display: block;
+/* Boxes */
+img {
+  /* Sets display to block */
+  display: block;
+  /*Sets margins to center elements*/
+  margin: 0 auto;
+}
 
-    .card {
-      border-style: solid;
-      border-width: 1px;
-      padding: 10px;
-      float: left;
-      width: 25%;
-    }
-    
-    
-  
-    
-    /* Cards are split into two columns at 992px or smaller */
-    @media screen and (max-width: 992px) {
-      .card {
-        width: 50%;
-      }
-      /* Change the header color */
-      header {
-        background: #772014;
-      }
-    }
-    
-    /* Cards are stacked on top of each other at 768px or smaller */
-    @media screen and (max-width: 768px) {
-      .card {
-        width: 100%;
-      }
+/* Box 3 */
+#image-3 {
+  /* Change display: none to display: block */
+  display: block;
+}
+.card {
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  float: left;
+  width: 25%;
+}
+
+/* Cards are split into two columns at 992px or smaller */
+@media screen and (max-width: 992px) {
+  .card {
+    width: 50%;
+  }
+  /* Change the header color */
+  header {
+    background: #772014;
+  }
+}
+
+/* Cards are stacked on top of each other at 768px or smaller */
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
