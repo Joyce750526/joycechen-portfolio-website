@@ -1,14 +1,13 @@
 * {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: beige;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: powdergrey;
   box-sizing: border-box;
   padding: 10px;
   margin: 0;
 }
 
-
 header {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: 1opx;
   background-image: "./assets/images/cloud.jpeg";
   background-size: 100vw;
@@ -17,15 +16,43 @@ header {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-} 
-
-.banner-list {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  flex-direction: row;
-  align-items: flex-end;
 }
 
+header {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  font-family: Cambria, "Cochin", Georgia, "Times", "Times New Roman", serif;
+  background-color: #2a607c;
+  align-items: stretch;
+  color: #ffffff;
+}
+article,ul {
+  border: 2px solid rebeccapurple;
+  padding: .5em;
+}
+
+.banner-list {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  flex-direction: row;
+  align-items: flex-end;
+ 
+}
+
+/* .contact-me {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  flex-direction: row;
+  align-items: flex-end;
+  display: block;
+  padding: 0;
+  margin-bottom: auto;
+  
+} */
+
+
 .banner-image {
+  font-size: xx-small;
+  font-style: normal;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-image: url("../images/cloud.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -36,85 +63,97 @@ header {
   position: relative;
 }
 
-  /* How to use CSS for image not repeat */
-/* 
-.weekly challenge | project {
-  position: absolute;
-  top: 50px;
-  right: 100px;
-} */
-#about-me {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+header nav ul li {
+  color: red;
+  display: inline-block;
+  padding: 10px;
+  margin-right: 20px;
+  align-items: flex-end;
+  font-family: Cambria, "Cochin", Georgia, "Times", "Times New Roman", serif;
+  font-size: 24px;
+}
+
+
+.about-me {
+  color: gray;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box;
   display: flex;
-  flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: stretch;
 }
 
-
-
-header {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 20px;
-    font-family: Cambria, 'Cochin', Georgia, 'Times', 'Times New Roman', serif;
-    background-color: #2a607c;
-    color: #ffffff;
+/* #weekly-challenge {
+  box-sizing: border-box;
+} */
+section {
+  height: 300px;
+  width: 100%;
+  border: 2px solid burlywood;
+  position: relative;
+  padding: 0;
+  margin: 0%;
 }
 
-body {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #d9dcd6;
+.project {
+  height: 300px;
+  width: 100%;
+  background-image: "./assets/images/cloud.jpeg";
+  background-size: 100vw; 
+  flex-grow: stretch;
+  border: 5px solid burlywood;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-align: ;
 }
+
 
 header h1 {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: gray;
   display: inline-block;
 }
 header h2 .ce {
   color: #2a607c;
 }
-header nav {
-  padding-top: 10px;
-  margin-right: 20px;
-  float: right;
-  font-family: Cambria, "Cochin", Georgia, "Times", "Times New Roman", serif;
-  font-size: 24px;
-}
-header nav ul {
-  list-style-type: none;
-}
-header nav ul li {
-  display: inline-block;
-  margin-right: 25px;
-}
 
 .cloud {
+  display: inline;
   height: 800px;
   width: 100%;
-  margin-bottom: 25px;
+  margin: 25px;
   background-image: url("assets/images/cloud.jepg");
   background-size: cover;
   background-position: center;
 }
 
-.float-left {
+
+
+.footer {
+  display: inline-flex;
+}
+
+
+
+
+/* .float-left {
   float: left;
   margin-right: 25px;
 }
 .float-right {
   float: right;
   margin-left: 25px;
-}
-.content {
+} */
+/* .content {
   width: 75%;
   display: inline-block;
   margin-left: 22px;
-}
+} */
 
-/* Boxes */
+Boxes
 img {
   /* Sets display to block */
   display: block;
@@ -122,36 +161,32 @@ img {
   margin: 0 auto;
 }
 
-/* Box 3 */
-#image-3 {
-  /* Change display: none to display: block */
-  display: block;
-}
-.card {
-  border-style: solid;
-  border-width: 1px;
-  padding: 10px;
-  float: left;
-  width: 25%;
-}
-.content {
+
+/* .content {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: stretch; */
 
-
-/* Cards are split into two columns at 992px or smaller */
-@media screen and (max-width: 992px) {
+Cards
+  are
+  split
+  into
+  two
+  columns
+  at
+  992px
+  or
+  smaller
+  @media
+  screen
+  and
+  (max-width: 992px) {
   .card {
-    width: 50%;
-  }
-  /* Change the header color */
-  header {
-    background: #772014;
+    width: 100%;
   }
 }
 
