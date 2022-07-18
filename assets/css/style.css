@@ -41,7 +41,6 @@ header h2 {
   align-items: center;
 }
 
-
 .banner-list {
   color: burlywood;
   list-style-position: inside;
@@ -49,7 +48,6 @@ header h2 {
   flex-direction: row;
   align-items: flex-end;
 }
-
 
 .banner-image {
   font-size: xx-small;
@@ -84,6 +82,7 @@ header h2 {
   margin: 5px;
   flex-direction: row;
 }
+
 .project-name {
   color: grey;
   width: 20%;
@@ -94,7 +93,9 @@ header h2 {
   flex-direction: row;
   justify-content: center;
 }
-.flex-container-a, .flex-container-b, .flex-container-c, .flex-container-d {
+
+.flex-container-a,
+.flex-container-b {
   border: 5px solid cornflowerblue;
   display: flex;
   flex-wrap: unwrap;
@@ -102,16 +103,34 @@ header h2 {
   margin: 10px;
 }
 
+.flex-container-c, .flex-container-d {
+  border: 5px solid cornflowerblue;
+  display: flex;
+  flex-wrap: unwrap;
+  width: 20%;
+  margin: 10px;
+  padding: 10px;
+  font-size: large;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .contact-me {
   padding: 30px;
   clear: both;
-  font-family: 'Courier New', Courier, monospace;
-  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  text-align: left;
+  flex-direction: row;
 }
-.contact-me h4 {
-font-weight: 12px;
-font-size: 18px;
 
+.contact-me h4 {
+  font-weight: 12px;
+  font-size: 18px;
+  text-align: center;
+  color: burlywood;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  flex-direction: row;
 }
 
 section {
@@ -134,34 +153,19 @@ section {
   text-align: ;
 }
 
-.footer {
-  display: inline-flex;
+footer p {
+  text-align: center;
 }
 
-
-
-Cards
-  are
-  split
-  into
-  two
-  columns
-  at
-  992px
-  or
-  smaller
-  @media
-  screen
-  and
-  (max-width: 992px) {
+/* Cards are split into two columns at 992px or smaller @media screen and (max-width: 992px) {
   .card {
     width: 100%;
   }
 }
 
-/* Cards are stacked on top of each other at 768px or smaller */
+Cards are stacked on top of each other at 768px or smaller
 @media screen and (max-width: 768px) {
   .card {
     width: 100%;
   }
-}
+} */
