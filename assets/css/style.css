@@ -8,45 +8,47 @@
 
 header {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  width: 1opx;
   background-image: "./assets/images/cloud.jpeg";
   background-size: 100vw;
-  flex-grow: stretch;
+  background-color: lightblue;
+  font-size: medium;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border: 5px solid burlywood;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-header {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 20px;
+header nav ul li {
+  color: grey;
+  display: inline-block;
+  margin-left: 20px;
   font-family: Cambria, "Cochin", Georgia, "Times", "Times New Roman", serif;
-  background-color: #2a607c;
-  align-items: stretch;
-  color: #ffffff;
+  font-size: 20px;
+  justify-content: right;
 }
-article,ul {
-  border: 2px solid rebeccapurple;
-  padding: .5em;
+
+header h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+  display: inline-block;
 }
+
+header h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+  display: inline-flex;
+  align-items: center;
+}
+
 
 .banner-list {
+  color: burlywood;
+  list-style-position: inside;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   flex-direction: row;
   align-items: flex-end;
- 
 }
-
-/* .contact-me {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  flex-direction: row;
-  align-items: flex-end;
-  display: block;
-  padding: 0;
-  margin-bottom: auto;
-  
-} */
 
 
 .banner-image {
@@ -63,17 +65,6 @@ article,ul {
   position: relative;
 }
 
-header nav ul li {
-  color: red;
-  display: inline-block;
-  padding: 10px;
-  margin-right: 20px;
-  align-items: flex-end;
-  font-family: Cambria, "Cochin", Georgia, "Times", "Times New Roman", serif;
-  font-size: 24px;
-}
-
-
 .about-me {
   color: gray;
   font-size: 18px;
@@ -85,13 +76,47 @@ header nav ul li {
   align-items: stretch;
 }
 
-/* #weekly-challenge {
-  box-sizing: border-box;
-} */
+.project {
+  color: gray;
+  width: 50%;
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  flex-direction: row;
+}
+.project-name {
+  color: grey;
+  width: 20%;
+  padding: 100;
+  margin: 5px;
+  font-size: large;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.flex-container-a, .flex-container-b, .flex-container-c, .flex-container-d {
+  border: 5px solid cornflowerblue;
+  display: flex;
+  flex-wrap: unwrap;
+  width: 100%;
+  margin: 10px;
+}
+
+.contact-me {
+  padding: 30px;
+  clear: both;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+.contact-me h4 {
+font-weight: 12px;
+font-size: 18px;
+
+}
+
 section {
   height: 300px;
   width: 100%;
-  border: 2px solid burlywood;
   position: relative;
   padding: 0;
   margin: 0%;
@@ -101,75 +126,19 @@ section {
   height: 300px;
   width: 100%;
   background-image: "./assets/images/cloud.jpeg";
-  background-size: 100vw; 
+  background-size: 100vw;
   flex-grow: stretch;
-  border: 5px solid burlywood;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   text-align: ;
 }
 
-
-header h1 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: gray;
-  display: inline-block;
-}
-header h2 .ce {
-  color: #2a607c;
-}
-
-.cloud {
-  display: inline;
-  height: 800px;
-  width: 100%;
-  margin: 25px;
-  background-image: url("assets/images/cloud.jepg");
-  background-size: cover;
-  background-position: center;
-}
-
-
-
 .footer {
   display: inline-flex;
 }
 
 
-
-
-/* .float-left {
-  float: left;
-  margin-right: 25px;
-}
-.float-right {
-  float: right;
-  margin-left: 25px;
-} */
-/* .content {
-  width: 75%;
-  display: inline-block;
-  margin-left: 22px;
-} */
-
-Boxes
-img {
-  /* Sets display to block */
-  display: block;
-  /*Sets margins to center elements*/
-  margin: 0 auto;
-}
-
-
-/* .content {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: stretch; */
 
 Cards
   are
