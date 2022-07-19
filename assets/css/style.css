@@ -101,6 +101,7 @@ header h2 {
   flex-wrap: unwrap;
   width: 100%;
   margin: 10px;
+  border-radius: 20px;
 }
 
 .flex-container-c {
@@ -118,13 +119,14 @@ header h2 {
   border: 5px solid cornflowerblue;
   display: flex;
   flex-wrap: unwrap;
-  width: 100%;
+  width: 20%;
   margin: 10px;
   padding: 10px;
   font-size: large;
   text-align: center;
   flex-direction: row;
   justify-content: center;
+  border-radius: 20px;
 }
 
 .contact-me {
