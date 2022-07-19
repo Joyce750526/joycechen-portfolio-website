@@ -152,7 +152,7 @@ section {
   margin: 0%;
 }
 .art-image-a img {
-  width: 300px;
+  width: 200px;
   border-radius: 10px;
 }
 
@@ -188,22 +188,10 @@ section {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  text-align: center;
+  text-align: left;
 }
 
 footer p {
   text-align: center;
 }
 
-/* Cards are split into two columns at 992px or smaller @media screen and (max-width: 992px) {
-  .card {
-    width: 100%;
-  }
-}
-
-Cards are stacked on top of each other at 768px or smaller
-@media screen and (max-width: 768px) {
-  .card {
-    width: 100%;
-  }
-} */

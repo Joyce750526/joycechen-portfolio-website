@@ -8,22 +8,24 @@
 
 ## HTML:
 
-* Changed title name to Horiseon Marketing Agency
 * Applied semantic HTML elements to this website. (header, nav, section, article, main)
-* Combined same property for class id marketing-service
-* Combined same property for same text size h3 
+* Applied class and id for specific section
+* Combined same property for class id flex-container-a, b, c, and d
 * Combined same property for same image property
-* Removed div class= "header" to "header"
-* Changed "div" to "nav" for navagation links
-* Addded "class name as marking-service" for "combining same property in both file"
+* Applied id to specific area for navagation links
+* Applied img source for art work
+* Applied a hyperlink for pdf
+* Applied hyperlinks for footer section (contact-me section)
+
+
 
 
 ## CSS:
 
-* Changed title name to Horiseon Marketing Agency
-* Applied semantic HTML elements to this website. (header, nav, section, article, main)
+* Applied font-family, font-size, font-style to words
+* Applied background-color to specific area
 * Combined same property for class id marketing-service
-* Combined same property for same text size h3 
+* C
 * Combined same property for same image property
 * Removed div class= "header" to "header"
 * Changed "div" to "nav" for navagation links
@@ -33,7 +35,7 @@
 ---
 
 ## Deployed Image: 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/images/horiseon-screenshot.png)
+![Joyce's website screenshot can be found here.](./assets/images/horiseon-screenshot.png)
 
 
 ## Images Use: 
