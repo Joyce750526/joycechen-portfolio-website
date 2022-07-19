@@ -154,7 +154,6 @@ section {
 .art-image-a img {
   width: 300px;
   border-radius: 10px;
-  margin: ;
 }
 
 .art-image-b {
@@ -189,7 +188,7 @@ section {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  text-align: ;
+  text-align: center;
 }
 
 footer p {
