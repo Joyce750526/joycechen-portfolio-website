@@ -1,8 +1,7 @@
 * {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: monospace;
   background-color: powdergrey;
-  box-sizing: border-box;
-  padding: 10px;
+  padding: 5px;
   margin: 0;
 }
 
@@ -10,19 +9,16 @@ header {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-image: "./assets/images/cloud.jpeg";
   background-size: 100vw;
-  background-color: lightblue;
   font-size: medium;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  border: 5px solid burlywood;
+  border: 3px solid burlywood;
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
 }
 
 header nav ul li {
   color: grey;
   display: inline-block;
-  margin-left: 20px;
   font-family: Cambria, "Cochin", Georgia, "Times", "Times New Roman", serif;
   font-size: 20px;
   justify-content: right;
@@ -41,9 +37,11 @@ header h2 {
   align-items: center;
 }
 
-.banner-list {
+.navbar {
   color: burlywood;
+  background-color: gray;
   list-style-position: inside;
+  font-size: 16px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   flex-direction: row;
   align-items: flex-end;
@@ -175,11 +173,13 @@ section {
   margin: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
-
+.project-name-a img{
+  width:500px
+}
 .art-image-b img {
   width: 500px;
 }
+
 .project {
   height: 300px;
   width: 100%;
